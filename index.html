@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Page!</h1>
+
+    <h2>Things to Do</h2>
+    <ol type="I">
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+        <li>Build awesome projects</li>
+    </ol>
+
+    <h2>Beautiful Landscape</h2>
+    <img src="https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+         alt="Beautiful landscape" width="500">
+    <p><small>Image source: Pexels.com</small></p>
+
+    <h2>Contact Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Nairobi</td>
+                <td>+254 700 000 000</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Park Ave, Mombasa</td>
+                <td>+254 711 111 111</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Peter Jones</td>
+                <td>789 River Rd, Kisumu</td>
+                <td>+254 722 222 222</td>
+                <td>peter.jones@example.com</td>
+            </tr>
+            <tr>
+                <td>Alice Brown</td>
+                <td>101 Lake View, Nakuru</td>
+                <td>+254 733 333 333</td>
+                <td>alice.brown@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Green</td>
+                <td>222 Hill Top, Eldoret</td>
+                <td>+254 744 444 444</td>
+                <td>bob.green@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required minlength="3" maxlength="100">
+            <small>Please enter your full name.</small>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            <small>Please enter a valid email address.</small>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your Password" required minlength="8">
+            <small>Password must be at least 8 characters long.</small>
+        </div>
+
+        <div>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <small>Please select your date of birth.</small>
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="" disabled selected>Select your country</option>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+                <option value="other">Other</option>
+            </select>
+            <small>Please select your country.</small>
+        </div>
+
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other-gender" name="gender" value="other">
+            <label for="other-gender">Other</label>
+            <small>Please select your gender.</small>
+        </div>
+
+        <div>
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <small>Select your interests.</small>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2025 My Awesome Webpage</p>
+    </footer>
+
+</body>
+</html>
